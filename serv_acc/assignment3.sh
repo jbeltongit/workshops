@@ -4,7 +4,7 @@
 
 declare -a array=() # create an empty array that will store output of case statement later on in the program
 
-echo -e "\nWelcome to the server access log analysis tool, Mimi!\n"
+echo -e "\nWelcome to the server access log analysis tool, Vince!\n"
 
 while [[ $REPLY != [Qq] ]]; do # declare while loop that will only end when user inputs Q/q
     read -p "Would you like to search all server access logs in current directory (a), or only search one (b)? " server
